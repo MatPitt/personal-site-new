@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mateo Pitarch
 
-## Getting Started
+Software, Solutions, and Product Engineer based in Buenos Aires, Argentina. I enjoy building end‑to‑end products, solving real problems with technology, and working close to customers and teams to deliver impact.
 
-First, run the development server:
+## Sobre mí
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Me apasiona crear, iterar y llevar ideas a producción. A lo largo de mi carrera trabajé en roles de ingeniería y soluciones, colaborando con producto, ventas y clientes para transformar necesidades en soluciones concretas. Disfruto del cruce entre ingeniería, negocio y experiencia de usuario, especialmente en iniciativas con IA y automatización.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Experiencia destacada
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- DevRev — Applied AI Solutions Engineer (2025 – Presente)
+	- Prototipos, demos y PoCs impulsados por IA para ciclos de preventa y adopción de producto.
+	- Integraciones, automatizaciones y migraciones de datos orientadas a valor para clientes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Salesforce — Software Engineer (2021 – 2025)
+	- Desarrollo de features full‑stack para Salesforce Starter y prototipos con IA (OCR + importación).
+	- Motor de búsqueda interno para documentación usado por múltiples equipos.
+	- Trayectoria: Intern → Associate MTS → Member of Technical Staff.
 
-## Learn More
+- MercadoLibre — Data Scientist (2020 – 2021)
+	- Visualizaciones y tableros en vivo utilizados por varias unidades del negocio.
 
-To learn more about Next.js, take a look at the following resources:
+- JP Morgan Chase — Data Analytics Intern (2019 – 2020)
+	- Dashboards e insights para mejorar métricas de satisfacción y operaciones.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Ecolab — Business Systems Analyst Intern (2018 – 2019)
+	- Automatización de procesos y soporte a integraciones de sistemas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Logros
 
-## Deploy on Vercel
+- Ganador Salesforce GenAI Hackathon (2024).
+- Participación en patente sobre detección automática de patrones en tickets (2023).
+- Intern Project of the Year (2022).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Educación
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- UADE — Ingeniería en Sistemas de Información (B.S.).
+
+## Intereses
+
+- Productos con IA aplicada, automatización, integraciones y experiencias enfocadas en valor.
+- Construir herramientas que aceleren a equipos de go‑to‑market y a ingeniería.
+
+## Contacto
+
+- GitHub: https://github.com/MatPitt
+- LinkedIn: https://www.linkedin.com/in/mateo-pitarch-575b78172/
