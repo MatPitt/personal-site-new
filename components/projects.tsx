@@ -61,6 +61,14 @@ const projects: Project[] = [
     githubUrl: "https://github.com/MatPitt/bakery-app",
     image: "/images/bakery.png",
   },
+  {
+    title: "F1 Livery Design Studio - (Work in Progress)",
+    description: "Interactive web application for designing and visualizing custom F1 car liveries in 3D. Features real-time preview and color customization options.",
+    technologies: ["React", "Three.js", "V0", "TypeScript"],
+    demoUrl: "#",
+    githubUrl: "#",
+    image: "/images/F1 Demo.png",
+  },
 ]
 
 export function Projects() {
