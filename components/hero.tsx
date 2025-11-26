@@ -5,7 +5,7 @@ import { ArrowDown } from "lucide-react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
-import { RollingText } from "@/components/ui/rolling-text"
+import { RollingText } from "@/components/text/rolling-text"
 
 export function Hero() {
   const heroRef = useRef<HTMLElement>(null)
@@ -52,14 +52,13 @@ export function Hero() {
           </div>
         </div>
 
-        <div ref={titleRef} className="transition-all duration-300">
+        <div ref={titleRef} className="">
           <RollingText 
             className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight text-balance"
             text="Mateo Pitarch"
             inView={true}
             inViewOnce={false}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-            repeatInterval={2500}
           />
         </div>
 
@@ -78,7 +77,7 @@ export function Hero() {
 
         <p
           ref={subtitleRef}
-          className="text-xl md:text-2xl lg:text-3xl font-light tracking-wide transition-all duration-300"
+          className="text-xl md:text-2xl lg:text-3xl font-light tracking-wide"
         >
           Software/Solutions/Product Engineer
           <span className="block mt-2 text-lg md:text-xl text-muted-foreground/70">📍 Buenos Aires, Argentina</span>
@@ -86,7 +85,7 @@ export function Hero() {
 
         <p
           ref={descRef}
-          className="text-base md:text-lg lg:text-xl text-muted-foreground/80 max-w-3xl mx-auto leading-relaxed text-pretty transition-all duration-300"
+          className="text-base md:text-lg lg:text-xl text-muted-foreground/80 max-w-3xl mx-auto leading-relaxed text-pretty"
         >
           Hi! My name is Mateo and I am an engineer from Argentina. I love working with technology across different areas, working with cross team collaboration and different people. I also enjoy being the nexus between the technical side and the business side as well. I have worked in different areas, roles and industries, always looking to deliver value and learn. I love building and creating innovative solutions using tech. I worked in different places including DevRev, Salesforce, MercadoLibre, MuleSoft, and JP Morgan
         </p>
