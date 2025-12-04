@@ -65,9 +65,17 @@ const projects: Project[] = [
     title: "F1 Livery Design Studio - (Work in Progress)",
     description: "Interactive web application for designing and visualizing custom F1 car liveries in 3D. Features real-time preview and color customization options.",
     technologies: ["React", "Three.js", "V0", "TypeScript"],
-    demoUrl: "#",
+    demoUrl: "https://x.com/mapitarc/status/1993839685362442544?s=20",
     githubUrl: "#",
     image: "/images/F1 Demo.png",
+  },
+    {
+    title: "Matrix Image Converter",
+    description: "A web app that converts images and videos into matrix like using green digital rain",
+    technologies: ["React", "Three.js", "V0", "TypeScript"],
+    demoUrl: "https://x.com/mapitarc/status/1993835917069766914?s=20",
+    githubUrl: "https://v0.app/templates/matrix-image-converter-DBlbVK1RDai",
+    image: "/images/MatrixDemo.png",
   },
 ]
 
