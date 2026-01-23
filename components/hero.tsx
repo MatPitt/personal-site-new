@@ -6,6 +6,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
 import { RollingText } from "@/components/text/rolling-text"
+import { CyclingText } from "@/components/text/cycling-text"
 
 export function Hero() {
   const heroRef = useRef<HTMLElement>(null)
@@ -79,7 +80,10 @@ export function Hero() {
           ref={subtitleRef}
           className="text-xl md:text-2xl lg:text-3xl font-light tracking-wide"
         >
-          Software/Solutions/Product Engineer
+          <CyclingText 
+            words={["Software", "Solutions", "Product"]} 
+            interval={3000}
+          /> Engineer
           <span className="block mt-2 text-lg md:text-xl text-muted-foreground/70">📍 Buenos Aires, Argentina</span>
         </p>
 
