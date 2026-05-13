@@ -20,10 +20,22 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
+    company: "Google",
+    logo: "/logos/google.png",
+    role: "Customer Engineer",
+    period: "2026 - Present",
+    bullets: [
+      "Member of the Google Cloud Customer Engineering team, providing technical expertise and support to customers across different industries.",
+      "Designing and implementing end-to-end solutions for customers using Google Cloud's AI, Gemini and GWS products.",
+      "Created GEN-AI based agents to automate customer workflows using Gemini Enterprise and Google Workspace tools.",
+    ],
+    technologies: ["Python", "Gemini Enterprise", "Google Cloud", "GWS"],
+  },
+  {
     company: "DevRev",
     logo: "/logos/devrevBig.png",
     role: "Applied AI Solutions Engineer",
-    period: "2025 - Present",
+    period: "2025 - 2026",
     bullets: [
       "Built AI-driven demos and PoCs, increasing technical win rate during sales cycles.",
       "Worked on fine tuning prompts and optimizing LLM integrations for customer solutions.",
@@ -35,7 +47,7 @@ const experiences: Experience[] = [
   {
     company: "Salesforce",
     logo: "/logos/Salesforce.com_logo.svg.png",
-  role: "Software Engineer",
+    role: "Software Engineer",
     period: "2021 - 2025",
     bullets: [
       "Prototyped and validated new Salesforce features with Product and Solutions Engineering.",
@@ -46,17 +58,17 @@ const experiences: Experience[] = [
     ],
     technologies: ["Salesforce Platform", "JavaScript", "Python", "AI/ML"],
     subRoles: [{
-        role: "Member of Technical Staff",
-        period: "2024 - 2025",
-      },
-      {
-        role: "Associate Member of Technical Staff",
-        period: "2022 - 2023",
-      },
-      {
-        role: "Intern",
-        period: "2021 - 2022",
-      },
+      role: "Member of Technical Staff",
+      period: "2024 - 2025",
+    },
+    {
+      role: "Associate Member of Technical Staff",
+      period: "2022 - 2023",
+    },
+    {
+      role: "Intern",
+      period: "2021 - 2022",
+    },
     ]
   },
   {
@@ -99,6 +111,7 @@ const experiences: Experience[] = [
 ]
 
 const companyLogos = [
+  { name: "Google", src: "/logos/google.png" },
   { name: "Salesforce", src: "/logos/Salesforce.com_logo.svg.png" },
   { name: "MercadoLibre", src: "/logos/mercadolibre.svg" },
   { name: "JPMorgan Chase", src: "/logos/jp-morgan.svg" },

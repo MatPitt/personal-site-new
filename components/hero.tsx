@@ -81,7 +81,7 @@ export function Hero() {
           className="text-xl md:text-2xl lg:text-3xl font-light tracking-wide"
         >
           <CyclingText 
-            words={["Software", "Solutions", "Product"]} 
+            words={["Software", "Solutions", "Product", "Customer"]} 
             interval={3000}
           /> Engineer
           <span className="block mt-2 text-lg md:text-xl text-muted-foreground/70">📍 Buenos Aires, Argentina</span>
@@ -91,7 +91,7 @@ export function Hero() {
           ref={descRef}
           className="text-base md:text-lg lg:text-xl text-muted-foreground/80 max-w-3xl mx-auto leading-relaxed text-pretty"
         >
-          Hi! My name is Mateo and I am an engineer from Argentina. I love working with technology across different areas, working with cross team collaboration and different people. I also enjoy being the nexus between the technical side and the business side as well. I have worked in different areas, roles and industries, always looking to deliver value and learn. I love building and creating innovative solutions using tech. I worked in different places including DevRev, Salesforce, MercadoLibre, MuleSoft, and JP Morgan
+          Hi! My name is Mateo and I am an engineer from Argentina. I love working with technology across different areas, working with cross team collaboration and different people. I also enjoy being the nexus between the technical side and the business side as well. I have worked in different areas, roles and industries, always looking to deliver value and learn. I love building and creating innovative solutions using tech. I worked in different places including Google, DevRev, Salesforce, MercadoLibre, MuleSoft, and JP Morgan
         </p>
       </div>
 

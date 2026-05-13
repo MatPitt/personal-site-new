@@ -10,7 +10,7 @@ const skillCategories = [
   },
   {
     category: "Platforms & Tools",
-    skills: ["Salesforce Platform","Agentforce", "Vercel", "Docker", "Twilio", "Git", "Tableau", "V0", "MongoDB"],
+    skills: ["Google Cloud", "Salesforce Platform","Agentforce", "Vercel", "Docker", "Twilio", "Git", "Tableau", "V0", "MongoDB"],
   },
   {
     category: "Expertise",
@@ -23,7 +23,8 @@ const skillCategories = [
       "GTM Systems",
       "E2E Testing",
       "Agent Development",
-      "Prompt Engineering"
+      "Prompt Engineering",
+      "Gemini Enterprise"
     ],
   },
 ]
